@@ -8,13 +8,13 @@ Getting Started
 To get started with Android/CyanogenMod, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To initialize your local repository using the LiteStalk trees, use a command like this:
 
     repo init -u git://github.com/LiteStalk/core_manifest.git -b kk
 
 Then to sync up:
 
-    repo sync
+    repo sync -j1
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
 
